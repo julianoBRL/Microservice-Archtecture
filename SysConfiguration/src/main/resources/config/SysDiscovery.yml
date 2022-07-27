@@ -1,0 +1,28 @@
+server:
+  port: 10002
+
+spring:
+  boot:
+    admin:
+      client:
+        url: ${ADMIN_SERVER:http://localhost:10000/}
+        password: admin
+        username: admin
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"

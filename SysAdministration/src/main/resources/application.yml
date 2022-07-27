@@ -1,0 +1,9 @@
+server:
+  port: 10000
+  
+spring:
+  boot:
+    admin:
+      ui:
+        title: Dashboard
+        brand: <img src="assets/img/icon-spring-boot-admin.svg"><span>Dashboard</span>

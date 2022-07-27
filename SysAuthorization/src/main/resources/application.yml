@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: SysAuthorization
+  cloud:
+    config:
+      enabled: true
+  config:
+    import: optional:configserver:${CONFIG_SERVER:http://localhost:10001/}
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false

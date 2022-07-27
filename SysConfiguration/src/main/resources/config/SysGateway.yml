@@ -1,0 +1,45 @@
+server:
+  port: 10004
+
+spring:
+  boot:
+    admin:
+      client:
+        url: ${ADMIN_SERVER:http://localhost:10000/}
+        password: admin
+        username: admin
+  cloud:
+    gateway:
+      discovery.locator.enabled: true
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+  gateway:
+    excludedURLsNew: /api/v1/users/authenticate,/login
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    hostname: localhost
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:10002/eureka/
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        
+info:
+  app:
+    name: "@project.name@"
+    description: "@project.description@"
+    version: "@project.version@"
+    encoding: "@project.build.sourceEncoding@"
+    java:
+      version: "@java.version@"
