@@ -1,9 +1,9 @@
-package io.github.julianobrl.ctos.dao;
+package io.github.julianobrl.archtecture.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import io.github.julianobrl.ctos.model.Users;
+import io.github.julianobrl.archtecture.model.Users;
 
 import java.util.HashSet;
 import java.util.Optional;

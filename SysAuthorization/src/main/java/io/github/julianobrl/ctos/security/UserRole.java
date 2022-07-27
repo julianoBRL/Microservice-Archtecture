@@ -1,4 +1,4 @@
-package io.github.julianobrl.ctos.security;
+package io.github.julianobrl.archtecture.security;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

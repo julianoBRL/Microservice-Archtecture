@@ -1,4 +1,4 @@
-package io.github.julianobrl.ctos.settings;
+package io.github.julianobrl.archtecture.settings;
 
 public class SecurityConstants {
 	public static final String KEY = "Z2MEQLwfN7Wu/7ErTe+1XQ==";

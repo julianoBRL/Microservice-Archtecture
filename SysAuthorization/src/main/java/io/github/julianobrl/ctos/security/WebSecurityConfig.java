@@ -1,4 +1,4 @@
-package io.github.julianobrl.ctos.security;
+package io.github.julianobrl.archtecture.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -11,10 +11,10 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-import io.github.julianobrl.ctos.security.filters.JWTAuthenticationFilter;
-import io.github.julianobrl.ctos.security.filters.JWTVerifierFilter;
-import io.github.julianobrl.ctos.security.service.ApplicationUserDetailsService;
-import io.github.julianobrl.ctos.services.TokensService;
+import io.github.julianobrl.archtecture.security.filters.JWTAuthenticationFilter;
+import io.github.julianobrl.archtecture.security.filters.JWTVerifierFilter;
+import io.github.julianobrl.archtecture.security.service.ApplicationUserDetailsService;
+import io.github.julianobrl.archtecture.services.TokensService;
 
 
 @Configuration

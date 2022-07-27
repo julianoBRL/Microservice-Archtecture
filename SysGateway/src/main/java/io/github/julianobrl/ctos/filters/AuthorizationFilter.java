@@ -1,4 +1,4 @@
-package io.github.julianobrl.ctos.filters;
+package io.github.julianobrl.archtecture.filters;
 
 import java.util.List;
 import java.util.function.Predicate;
@@ -16,7 +16,7 @@ import org.springframework.web.server.ServerWebExchange;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import io.github.julianobrl.ctos.settings.SecurityConstants;
+import io.github.julianobrl.archtecture.settings.SecurityConstants;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.JwtException;

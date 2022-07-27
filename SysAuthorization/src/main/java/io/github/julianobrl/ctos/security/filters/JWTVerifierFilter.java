@@ -1,4 +1,4 @@
-package io.github.julianobrl.ctos.security.filters;
+package io.github.julianobrl.archtecture.security.filters;
 
 import java.io.IOException;
 import java.util.List;
@@ -19,10 +19,10 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import io.github.julianobrl.ctos.model.TokensEntity;
-import io.github.julianobrl.ctos.security.SecurityConstants;
-import io.github.julianobrl.ctos.services.TokensService;
-import io.github.julianobrl.ctos.utils.Utilities;
+import io.github.julianobrl.archtecture.model.TokensEntity;
+import io.github.julianobrl.archtecture.security.SecurityConstants;
+import io.github.julianobrl.archtecture.services.TokensService;
+import io.github.julianobrl.archtecture.utils.Utilities;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jws;
 import io.jsonwebtoken.Jwts;

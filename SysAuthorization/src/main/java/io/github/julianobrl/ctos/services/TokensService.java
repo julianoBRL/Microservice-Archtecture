@@ -1,4 +1,4 @@
-package io.github.julianobrl.ctos.services;
+package io.github.julianobrl.archtecture.services;
 
 import java.util.Optional;
 import java.util.UUID;
@@ -6,8 +6,8 @@ import java.util.UUID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import io.github.julianobrl.ctos.dao.TokensRepository;
-import io.github.julianobrl.ctos.model.TokensEntity;
+import io.github.julianobrl.archtecture.dao.TokensRepository;
+import io.github.julianobrl.archtecture.model.TokensEntity;
 
 @Service
 public class TokensService {

@@ -1,4 +1,4 @@
-package io.github.julianobrl.ctos.security.filters;
+package io.github.julianobrl.archtecture.security.filters;
 
 import java.io.IOException;
 import java.time.LocalDateTime;
@@ -22,11 +22,11 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import io.github.julianobrl.ctos.model.ConnValidationResponse;
-import io.github.julianobrl.ctos.model.JwtAuthenticationModel;
-import io.github.julianobrl.ctos.model.TokensEntity;
-import io.github.julianobrl.ctos.security.SecurityConstants;
-import io.github.julianobrl.ctos.services.TokensService;
+import io.github.julianobrl.archtecture.model.ConnValidationResponse;
+import io.github.julianobrl.archtecture.model.JwtAuthenticationModel;
+import io.github.julianobrl.archtecture.model.TokensEntity;
+import io.github.julianobrl.archtecture.security.SecurityConstants;
+import io.github.julianobrl.archtecture.services.TokensService;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import lombok.RequiredArgsConstructor;

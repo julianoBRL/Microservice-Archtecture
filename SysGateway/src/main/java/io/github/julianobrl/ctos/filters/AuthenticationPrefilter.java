@@ -1,4 +1,4 @@
-package io.github.julianobrl.ctos.filters;
+package io.github.julianobrl.archtecture.filters;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,8 +20,8 @@ import org.springframework.web.server.ServerWebExchange;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import io.github.julianobrl.ctos.settings.ConnValidationResponse;
-import io.github.julianobrl.ctos.settings.SecurityConstants;
+import io.github.julianobrl.archtecture.settings.ConnValidationResponse;
+import io.github.julianobrl.archtecture.settings.SecurityConstants;
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import reactor.core.publisher.Mono;

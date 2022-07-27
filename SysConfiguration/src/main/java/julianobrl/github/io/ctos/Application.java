@@ -1,4 +1,4 @@
-package julianobrl.github.io.ctos;
+package julianobrl.github.io.archtecture;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

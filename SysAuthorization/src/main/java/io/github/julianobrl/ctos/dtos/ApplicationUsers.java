@@ -1,4 +1,4 @@
-package io.github.julianobrl.ctos.dtos;
+package io.github.julianobrl.archtecture.dtos;
 
 import lombok.RequiredArgsConstructor;
 import lombok.ToString;
@@ -6,8 +6,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import io.github.julianobrl.ctos.model.Users;
-import io.github.julianobrl.ctos.security.UserRole;
+import io.github.julianobrl.archtecture.model.Users;
+import io.github.julianobrl.archtecture.security.UserRole;
 
 import java.time.LocalDateTime;
 import java.util.Collection;

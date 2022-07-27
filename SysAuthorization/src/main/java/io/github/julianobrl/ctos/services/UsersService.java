@@ -1,4 +1,4 @@
-package io.github.julianobrl.ctos.services;
+package io.github.julianobrl.archtecture.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
@@ -9,9 +9,9 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import io.github.julianobrl.ctos.dao.UsersRepository;
-import io.github.julianobrl.ctos.model.Users;
-import io.github.julianobrl.ctos.utils.AppConstants;
+import io.github.julianobrl.archtecture.dao.UsersRepository;
+import io.github.julianobrl.archtecture.model.Users;
+import io.github.julianobrl.archtecture.utils.AppConstants;
 
 import java.security.SecureRandom;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package io.github.julianobrl.ctos.model;
+package io.github.julianobrl.archtecture.model;
 
 import java.time.LocalDateTime;
 import java.util.Date;

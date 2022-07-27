@@ -5,11 +5,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
     	<groupId>io.github.julianobrl</groupId>
-    	<artifactId>ctos</artifactId>
+    	<artifactId>archtecture</artifactId>
     	<version>0.0.1-SNAPSHOT</version>
   	</parent>
 	
-	<groupId>julianobrl.github.io.ctos</groupId>
+	<groupId>julianobrl.github.io.archtecture</groupId>
 	<artifactId>SysConfiguration</artifactId>
 	<name>SysConfiguration</name>
 	<description>Configure all the systems (Server-side)</description>

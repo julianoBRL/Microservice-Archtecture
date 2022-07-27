@@ -1,4 +1,4 @@
-package io.github.julianobrl.ctos.configs;
+package io.github.julianobrl.archtecture.configs;
 
 import java.text.SimpleDateFormat;
 
@@ -13,7 +13,7 @@ import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import io.github.julianobrl.ctos.filters.AuthenticationPrefilter;
+import io.github.julianobrl.archtecture.filters.AuthenticationPrefilter;
 
 @Configuration
 public class DefaultConfig {

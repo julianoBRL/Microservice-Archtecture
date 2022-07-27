@@ -5,7 +5,7 @@
 	
 	<parent>
     	<groupId>io.github.julianobrl</groupId>
-    	<artifactId>ctos</artifactId>
+    	<artifactId>archtecture</artifactId>
     	<version>0.0.1-SNAPSHOT</version>
   	</parent>
 	

@@ -1,4 +1,4 @@
-package io.github.julianobrl.ctos.resources;
+package io.github.julianobrl.archtecture.resources;
 
 import java.util.List;
 
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import io.github.julianobrl.ctos.model.ConnValidationResponse;
+import io.github.julianobrl.archtecture.model.ConnValidationResponse;
 
 @RestController
 @RequestMapping("/api/v1/validateToken")

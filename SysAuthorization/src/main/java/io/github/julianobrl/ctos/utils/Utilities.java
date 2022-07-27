@@ -1,4 +1,4 @@
-package io.github.julianobrl.ctos.utils;
+package io.github.julianobrl.archtecture.utils;
 
 import java.util.UUID;
 

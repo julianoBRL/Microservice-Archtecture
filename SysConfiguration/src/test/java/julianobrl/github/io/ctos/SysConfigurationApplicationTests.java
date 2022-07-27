@@ -1,4 +1,4 @@
-package julianobrl.github.io.ctos;
+package julianobrl.github.io.archtecture;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

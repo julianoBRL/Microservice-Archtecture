@@ -5,11 +5,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
     	<groupId>io.github.julianobrl</groupId>
-    	<artifactId>ctos</artifactId>
+    	<artifactId>archtecture</artifactId>
     	<version>0.0.1-SNAPSHOT</version>
   	</parent>
 	
-	<groupId>io.github.julianobrl.ctos</groupId>
+	<groupId>io.github.julianobrl.archtecture</groupId>
 	<artifactId>SysDiscovery</artifactId>
 	<name>SysDiscovery</name>
 	<description>Configure all the systems (Server-side)</description>

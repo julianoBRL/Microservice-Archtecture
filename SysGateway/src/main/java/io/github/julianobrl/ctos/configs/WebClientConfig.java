@@ -1,4 +1,4 @@
-package io.github.julianobrl.ctos.configs;
+package io.github.julianobrl.archtecture.configs;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

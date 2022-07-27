@@ -1,4 +1,4 @@
-package io.github.julianobrl.ctos.settings;
+package io.github.julianobrl.archtecture.settings;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package io.github.julianobrl.ctos.filters;
+package io.github.julianobrl.archtecture.filters;
 
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;
 import org.springframework.cloud.gateway.filter.GlobalFilter;

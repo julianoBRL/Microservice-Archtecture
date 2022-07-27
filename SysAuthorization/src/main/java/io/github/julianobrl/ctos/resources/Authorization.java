@@ -1,4 +1,4 @@
-package io.github.julianobrl.ctos.resources;
+package io.github.julianobrl.archtecture.resources;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import io.github.julianobrl.ctos.model.Users;
-import io.github.julianobrl.ctos.services.UsersService;
+import io.github.julianobrl.archtecture.model.Users;
+import io.github.julianobrl.archtecture.services.UsersService;
 
 @RestController
 @RequestMapping("/register")
